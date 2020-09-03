@@ -1,0 +1,35 @@
+hr{
+	border: 1px solid red;
+}
+h1{ color: darkblue; }
+
+body{
+	background-color: floralwhite;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px solid gray;
+	padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+}
+
+a:link{
+		color: red;
+		text-decoration: none;
+	}
+a:visited{
+		color: green;
+		text-decoration: none;
+	}
+
+	/*Mouse sobre o link*/
+a:hover{
+		color: hotpink;
+		text-decoration: none; /*remover underline do link*/
+		font-size: 20px;
+	}
+
+	/*Link selecionado */
+a:active{
+		color: blue;
+		text-decoration: none;
+	}
